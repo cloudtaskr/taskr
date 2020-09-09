@@ -1,0 +1,137 @@
+#task-sidebar {
+  background-color:  #fff;
+  color: black;
+  min-height: calc(100vh - 55px);
+  min-width: 20vw;
+  position: relative;
+  padding-top: 120px;
+}
+
+#task-page {
+  display: flex;
+  flex-direction: row;
+}
+
+#task-section {
+  background-color: fff;
+  width: 50vw;
+}
+#smart-section {
+  background-color: fff;
+  width: 30vw;
+  padding-top:120px;
+  padding-left: 20px;
+}
+.sidebar-group{
+  padding-left: 15px;
+}
+.search-input {
+  font-size: 16px;
+}
+
+.sidebar-header {
+  color: rgba(36, 39, 43, 1);
+  margin: 8px 0px;
+  text-align: right;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+
+.btn-primary {
+  background-color: #FF78BA !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.btn-danger {
+  background-color: #2F0152 !important;
+  border: none !important;
+  border-radius: 20px !important;
+}
+
+.btn-warning {
+  background-color: #A3D3F7 !important;
+  border: none !important;
+  border-radius: 20px !important;
+}
+.btn-outline-warning {
+  border-color: #A3D3F7 !important;
+  background: none !important;
+  border-radius: 20px !important;
+  color: #212529 !important;
+}
+
+.sidebar-item:hover {
+  /* box-shadow: 2px 0px 16px rgba(16, 79, 85, 1); */
+  text-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+
+#add-task {
+  position: absolute;
+  margin-right: 16px;
+  right: 0;
+  bottom: 0;
+}
+
+.each-task{
+  border-bottom: 1px solid rgba(36, 39, 43, 0.486);
+}
+
+.task-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 8px auto;
+  padding: 8px;
+}
+
+.task-title {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-control {
+  max-width: 20%;
+  display: flex;
+}
+
+
+.bg-img-task-list {
+  background-image: url("/images/back2.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  height: 600px;
+  width: 650px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle !important;
+  /* display: flex;
+  flex-direction: row; */
+  /* padding-top: 150px; */
+  position: relative;
+  top: 90px;
+
+}
+
+.prp-paragr{
+  vertical-align: middle;
+}
+
+
+.welcome {
+  padding-top: 250px;
+  width: 400px;
+  padding-left: 36px;
+}
+
+.landing-home {
+  display: flex;
+  flex-direction: row;
+}
+
+.task-title {
+  justify-content: center;
+}
